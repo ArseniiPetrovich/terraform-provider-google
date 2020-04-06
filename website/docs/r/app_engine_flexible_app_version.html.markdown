@@ -105,8 +105,6 @@ resource "google_app_engine_flexible_app_version" "myapp_v1" {
       target_utilization = 0.5
     }
   }
-
-  delete_service_on_destroy = true
 }
 
 resource "google_storage_bucket" "bucket" {
